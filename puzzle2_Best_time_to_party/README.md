@@ -21,4 +21,14 @@
 
 # Note
 1. Since starting time and ending time can be treated as different objects, you might as well just seperate them out. And create a new list for iterating them.
-2. These kind of problem can be viewed as Sliding Window problem.
+2. Sometimes sorting can works wonder on the data you are trying to process.
+3. These kind of problem can be viewed as Sliding Window problem.
+
+# Implementation details
+1. Additional data structure like tuple can helps you solve problem, this helps convey the information that this is the time starting also the time ending of this particular schedule.
+2. Since we only care about start time and end time, i.e. start time +1 end time -1, thus preprocess and break the time into two part, the start and end.
+```python
+  for c in schedule:
+        times.append((c[0], 'start'))
+        times.append((c[1], 'end'))
+```

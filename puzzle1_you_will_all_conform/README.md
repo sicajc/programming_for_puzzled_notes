@@ -15,3 +15,9 @@
 - Adding additional boundary can greatly simplify the logic.
 - Think about the problem in a high level thought way instead of directly implementing the algorithm in terms of code.
 - Play with some examples to gain insight about the problem.
+
+## Preprocessing
+```python
+    caps = caps + ['END']
+
+```

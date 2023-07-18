@@ -18,3 +18,7 @@
 3. For checking of diagonals, think about the square distance between two queens. We can take the absolute value of the difference, and see the the difference of two queens in terms of x-coordinate and y-coordinate is the same. If they are the same, they are on the same diagonal.
 4. Notice there are symmetries exists within this problem, i.e. we do not need to exhaustively check all possible positions.
 5. By applying reflection and rotation, we can greatly reduce the numbers of computations needed for this 8-queens problem.
+
+# Implementation details
+1. Subfunction noConflict is used to check whether the queen placed violates the rule or not, in CS large problem is given name and different functions to further simplify the problem.
+2. Different representation in data structures means different implementation details, correct representation in data structure however, can save more memory, in this case we use 1-D memory representation instead of 2-D memory representation for the location of the queen.

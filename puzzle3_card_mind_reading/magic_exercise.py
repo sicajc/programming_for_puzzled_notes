@@ -13,7 +13,6 @@ deck = ['A_C', 'A_D', 'A_H', 'A_S', '2_C', '2_D', '2_H', '2_S', '3_C', '3_D', '3
         '10_C', '10_D', '10_H', '10_S', 'J_C', 'J_D', 'J_H', 'J_S',
         'Q_C', 'Q_D', 'Q_H', 'Q_S', 'K_C', 'K_D', 'K_H', 'K_S']
 
-
 #This procedure figures out which card should be hidden based on the distance
 #between the two cards that have the same suit.
 #It returns the hidden card, the first exposed card, and the distance

@@ -22,6 +22,8 @@ def bestTimeToPartySmart(schedule):
         times.append((c[0], 'start'))
         times.append((c[1], 'end'))
 
+    print(times)
+
     #Sort the list of times.
     #Each time is a start or end time of a celebrity sighting.
     sortlist(times)

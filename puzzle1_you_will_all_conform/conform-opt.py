@@ -15,12 +15,15 @@ def pleaseConformOpt(caps):
     backward = 0
     intervals = []
 
+    # Concatenating an additional termination condition to the array, just like zero-padding.
+    # String usage for list concatenation.
     caps = caps + ['END']
 
     #Determine intervals where caps are on in the same direction
     for i in range(1, len(caps)):
         if caps[start] != caps[i]:
             # each interval is a tuple with 3 elements (start, end, type)
+            # Think about a good data structures representation for your thoughts.
             intervals.append((start, i - 1, caps[start]))
 
             if caps[start] == 'F':
@@ -48,7 +51,6 @@ def pleaseConformOnepass(caps):
                 print('People in positions', i, end='')
             else:
                 print(' through', i-1, 'flip your caps!')
-
 
 pleaseConformOpt(caps)
 pleaseConformOnepass(caps)
