@@ -1,6 +1,6 @@
 # programming_for_puzzled_notes
 1. You will all conform - Sliding window algorithm and the usage of boundary condition to simplify algorithm boundary checking.
-2. Best time to party - Preprocessing of datas can greatly simplify the problem.
+2. Best time to party - More Sliding Window algorithm usage , preprocessing of datas and use different data representation to greatly simplify the original problem.
 3. Card mind reading    - Encode and decode of information, Modulo arithmetic.
 4. Do break the crystal - Radix and number, basic algorithmic analysis.
 5. Eight queens problem - Brute force search,data structure representation ,symmetry, rotation of same problem for search space pruning.
